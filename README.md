@@ -1,5 +1,8 @@
-# cognateLanguage2
-Mnemonic compression for easier simultaneous multi-language receptive vocab learning.
+# "Cognate Language 2"
+[Mnemonic](https://www.google.ca/search?q=mnemonic) compression for easier simultaneous multi-language [receptive vocabulary](https://www.google.ca/search?q=receptive vocabulary) acquisition. *And now with order = source language,* for an added mnemonic aid. (Word length can be overcome with proper mnemonic technique [combinations](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/).)
 
-Inspiration: https://github.com/hchiam/cognateLanguage
+**Inspiration**: https://github.com/hchiam/cognateLanguage (keeping separate for reference). This repo cognateLanguage2 is to be a smaller project. Since the original project already covers Chinese, Spanish, Hindi, Arabic, and Russian, this newer project will use other, unrelated languages.
 
+**Major difference**: A tradeoff. Don't try to compress word length (which can be overcome with proper story mnemonics using word homophones). Instead, build in consistency to make tracking source languages easier. How? Always make source languages appear in the derived words in the same order. Example: 
+
+**Pronunciation**: Same as in the original "cognateLanguage" project: all letters follow their [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) values/pronunciations, except for ["c"](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)=/ʃ/, ["j"](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)=/ʒ/, ["y"](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)=/j/, and ["h"](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)=/x/.
