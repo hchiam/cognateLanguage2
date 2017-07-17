@@ -1,6 +1,6 @@
 # "Cognate Language 2"
 
-**Inspiration**: https://github.com/hchiam/cognateLanguage (keeping separate for reference). *This* repo cognateLanguage2 is to be a smaller project. Since the original project already covers Chinese, Spanish, Hindi, Arabic, and Russian, this newer project will use other languages.
+**Inspiration**: https://github.com/hchiam/cognateLanguage (keeping separate for reference). *This* repo cognateLanguage2 is to be a smaller project. Since the original project already covers Chinese, Spanish, Hindi, Arabic, and Russian, this newer project will use other languages: Malay, Korean, Swahili, and Japanese.
 
 ## DESCRIPTION in more succinct, accurate jargon:
 
@@ -15,5 +15,7 @@ Also, there's an [older version of this project](https://github.com/hchiam/cogna
 ## More info:
 
 **Major difference**: A tradeoff. Don't try to compress word length (which can be overcome with proper story mnemonics using word homophones). Instead, build in consistency to make tracking source languages easier. How? Always make source languages appear in the derived words in the same order. **Example**: the derived word/mnemonic "[castahokanbi](https://github.com/hchiam/cognateLanguage/blob/master/output_shortlist.txt#L2)" preserves the order of the source words "ca", "esta", "ho", "kana", and "bi". But in *cognateLanguage2*, **all words** should *consistently* be like this in the generated vocabulary/mnemonic list, for you to be able to make use of the order of source words.
+
+Similar to the original project, adjacent source words with sounds that are "allophones" of each other can be "combined" to make words slightly shorter. Example: ben + mul + kit + mon -> bemulkitmon, not be**nm**ulkitmon.
 
 **Pronunciation**: Same as in the original "cognateLanguage" project: all letters follow their [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) values/pronunciations, except for ["c"](https://upload.wikimedia.org/wikipedia/commons/c/cc/Voiceless_palato-alveolar_sibilant.ogg)=/ʃ/, ["j"](https://upload.wikimedia.org/wikipedia/commons/3/30/Voiced_palato-alveolar_sibilant.ogg)=/ʒ/, ["y"](https://upload.wikimedia.org/wikipedia/commons/e/e8/Palatal_approximant.ogg)=/j/, and ["h"](https://upload.wikimedia.org/wikipedia/commons/0/0f/Voiceless_velar_fricative.ogg)=/x/.
