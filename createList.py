@@ -29,12 +29,31 @@ allophones = {
 # functions:
 #------------------------
 
-def initialSyllablePlusInitialVowel(word):
+# def initialSyllablePlusInitialVowel(word):
+#     if word:
+#         for i in range(1,len(word)): # first letter can be a vowel
+#             letter = word[i]
+#             if letter in 'aeiou':
+#                 return word[:i+2]
+#     return word
+
+def initialSyllableMinusPreconsonantalVowels(word): # so always 4 syllables
     if word:
-        for i in range(1,len(word)): # first letter can be a vowel
+        newWord = ''
+        # ignore preconsonantal vowels
+        for i in range(len(word)):
             letter = word[i]
+            if letter not in 'aeiou':
+                newWord = word[i:]
+                break
+        # now, just get the first syllable
+        for i in range(len(newWord)):
+            letter = newWord[i]
             if letter in 'aeiou':
-                return word[:i+2]
+                whereStop = i+1
+                if i+1<len(newWord) and newWord[i+1] not in 'aeiou':
+                    whereStop += 1
+                return newWord[:whereStop]
     return word
 
 def joinOverlappingAllophones(word1,word2):
@@ -50,7 +69,8 @@ def createWord(words):
     newWord = ''
     for language in words:
         if language != 'Eng':
-            word2 = initialSyllablePlusInitialVowel(words[language])
+            # word2 = initialSyllablePlusInitialVowel(words[language])
+            word2 = initialSyllableMinusPreconsonantalVowels(words[language]) # so always 4 syllables
             newWord = joinOverlappingAllophones(newWord, word2)
     return newWord
 
