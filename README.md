@@ -8,7 +8,7 @@
 
 ## DESCRIPTION in plain English:
 
-Use code to create a list of words with special properties. These words can help you *memorize* words from a *few* different languages at the same time, but only if your goal is to *recognize* words and get the *gist* of sentences, *not* necessarily to *speak* with exact grammar/correctness, if that's your goal for now.
+Code was used to create a list of words with special properties. These words can help you *memorize* words from a *few* different languages at the same time, but only if your goal is to *recognize* words and get the *gist* of sentences, *not* necessarily to *speak* with exact grammar/correctness, if that's your goal for now.
 
 Also, there's an [older version of this project](https://github.com/hchiam/cognateLanguage), but this newer project adds an extra memory help by having words follow a built-in rule so you can more easily figure out which source word belongs to which language. This comes at the cost of making words longer, but you don't have to worry about that if you use a good combination of memory techniques (Got questions on that? Ask in the ["Issues" tab](https://github.com/hchiam/cognateLanguage2/issues) above. Basically choose words that sound similar but are of more concrete things, and then make mini sentence stories out of them that relate to the meaning---often in funny ways.).
 
