@@ -2,7 +2,7 @@
 
 **Inspiration**: https://github.com/hchiam/cognateLanguage (keeping separate for reference). *This* repo cognateLanguage2 is to be a smaller project. Since the original project already covers Chinese, Spanish, Hindi, Arabic, and Russian, this newer project will use other languages: Malay, Korean, Swahili, and Japanese.
 
-## DESCRIPTION in more succinct, accurate jargon:
+## DESCRIPTION in succinct, accurate jargon:
 
 [Mnemonic](https://www.google.ca/search?q=mnemonic) compression for easier simultaneous multi-language [receptive vocabulary](https://www.google.ca/search?q=receptive%20vocabulary) acquisition. *Now with "order = source language",* for an added mnemonic aid. (Word length can be overcome with proper mnemonic technique [combinations](https://www.fluentin3months.com/imagination-your-key-to-memorizing-hundreds-of-words-quickly/).)
 
