@@ -23,3 +23,9 @@ Similar to the original project, adjacent source words with sounds that are "all
 ## Learn words:
 
 https://www.memrise.com/course/1589462/coglang2/
+
+## Related projects:
+
+https://github.com/hchiam/cogLang-geneticAlgo
+
+https://github.com/hchiam/cognateLanguage
