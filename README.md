@@ -29,3 +29,5 @@ https://www.memrise.com/course/1589462/coglang2/
 https://github.com/hchiam/cogLang-geneticAlgo
 
 https://github.com/hchiam/cognateLanguage
+
+https://github.com/hchiam/coglang-translator
