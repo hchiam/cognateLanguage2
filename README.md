@@ -1,6 +1,6 @@
 # "Cognate Language 2"
 
-**Inspiration**: https://github.com/hchiam/cognateLanguage (keeping separate for reference). *This* repo cognateLanguage2 is to be a smaller project. Since the original project already covers Chinese, Spanish, Hindi, Arabic, and Russian, this newer project will use other languages: Malay, Korean, Swahili, and Japanese.
+**Inspiration**: https://github.com/hchiam/cognateLanguage (keeping separate for reference). *This* repo cognateLanguage2 is to be a smaller project. Since the original project already covers Chinese, Spanish, Hindi, Arabic, and Russian, this newer project will use other languages: Malay, Korean, Swahili, and Japanese. (Or just these 3: [German, Portuguese, and Polish](https://github.com/hchiam/cognateLanguage2/tree/master/retry-GerPorPol))
 
 ## DESCRIPTION in succinct, accurate jargon:
 
